@@ -1,0 +1,29 @@
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: red;
+  height: 100vh;
+  color: #2b8f2b; }
+  header button {
+    background: #382e8e; }
+    header button:hover {
+      background: red; }
+    header button:focus {
+      background: #2b8f2b; }
+    header button::after {
+      content: '.helloooo'; }
+    header button::before {
+      content: 'YES '; }
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: blue; }
+
+/*# sourceMappingURL=style.css.map */
